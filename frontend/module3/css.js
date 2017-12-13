@@ -1,4 +1,9 @@
+var debug_info = null;
+
 app.controller('formattingCtrl', ($scope) => {
+
+    debug_info = $scope;
+
     $scope.movies = [
         {
             name : 'Karla',

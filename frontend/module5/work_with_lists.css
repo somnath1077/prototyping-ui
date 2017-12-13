@@ -1,0 +1,20 @@
+
+div.module1 span.currency_symbol {
+    color: green;
+}
+
+span.currency_symbol {
+    color: red !important;
+}
+
+.currency_symbol {
+    color: cadetblue;
+}
+
+span {
+    color:violet;
+}
+
+<div>
+    <p class="currency_symbol"></p>
+</div>
